@@ -25,7 +25,7 @@ Initially, load the [zero-trust-jenkins.yaml](zero-trust-jenkins.yaml) into the 
    1. Download the updates, install, and reboot the Jenkins server.
    1. Wait for the Jenkins server to restart completely.
 1. Naviage to Dashboard -> Manage Jenkins -> Configuration as Code
-   1. Specify `https://paradyme-management.github.io/zero-trust-build/zero-trust-jenkins.yaml` as the URL.
+   1. Specify `https://paradyme-egis-cc-replica.github.io/zero-trust-build/zero-trust-jenkins.yaml` as the URL.
    1. Click "Apply new configuration".
 
 The build will be triggered and the zero-trust demonstration code deployed.
