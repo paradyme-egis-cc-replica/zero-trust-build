@@ -1,0 +1,2 @@
+jobs:
+  - url: https://paradyme-egis-cc-replica.github.io/zero-trust-build/job-zero-trust-c.groovy

@@ -1,0 +1,14 @@
+unclassified:
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    configs:
+      - credentialsId: "github-pat"
+        name: "paradyme-management"
+        manageHooks: true
+    hookUrl: "https://jenkins.egis-4-cicd.paradyme-egis-prep.com/github-webhook/"
+
+jobs:
+  - url: https://paradyme-egis-cc-replica.github.io/zero-trust-build/job-zero-trust-a.groovy
+  - url: https://paradyme-egis-cc-replica.github.io/zero-trust-build/job-zero-trust-b.groovy
+  - url: https://paradyme-egis-cc-replica.github.io/zero-trust-build/job-zero-trust-c.groovy
